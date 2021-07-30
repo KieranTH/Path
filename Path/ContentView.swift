@@ -6,16 +6,25 @@
 //
 
 import SwiftUI
+import CoreGPX
+
 
 struct ContentView: View {
+    //let location: Location
+    
+    @State var gpx: GPXRoot
+    
+    @ObservedObject var currentArea: CurrentArea
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+        ScrollView{
+            Text("Search: ")
+                .font(.title)
+                .padding(.all,12)
+            Text(currentArea.area.name)
+                .font(.headline)
+                .italic()
+                .padding(.all,12)
+        }.navigationTitle("Information")
     }
 }

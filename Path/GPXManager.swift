@@ -11,7 +11,7 @@ import CoreGPX
 
 class GPXManager: Identifiable{
     func start() -> GPXRoot{
-        let url = Bundle.main.url(forResource: "gwynedd", withExtension: ".gpx")!
+        let url = Bundle.main.url(forResource: "gwyneddWhole", withExtension: ".gpx")!
         guard let gpx = GPXParser(withURL: url)?.parsedData() else { return GPXRoot()}
         return gpx
     }

@@ -151,7 +151,7 @@ struct showSearchModel: View{
                     .padding(.all,16)
                     .foregroundColor(Color.white)
                     .background(Color.green)
-            })
+            }).cornerRadius(10)
             
             
             //--- Cancel button ---
@@ -160,7 +160,7 @@ struct showSearchModel: View{
                     .padding(.all,16)
                     .foregroundColor(Color.white)
                     .background(Color.red)
-            })
+            }).cornerRadius(10)
             
             //--- History List ---
             VStack{

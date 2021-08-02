@@ -15,9 +15,10 @@
 		8923F941269B587300360ED9 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8923F940269B587300360ED9 /* MapView.swift */; };
 		89498D9C26B1D1D900CDE396 /* Area.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89498D9B26B1D1D900CDE396 /* Area.swift */; };
 		8974605E26B30C9C003240B1 /* CoreGPX in Frameworks */ = {isa = PBXBuildFile; productRef = 8974605D26B30C9C003240B1 /* CoreGPX */; };
-		8974606026B3108E003240B1 /* gwynedd.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8974605F26B3108E003240B1 /* gwynedd.gpx */; };
 		8974606226B31BF0003240B1 /* GPXManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8974606126B31BF0003240B1 /* GPXManager.swift */; };
 		89907B7726B45DA900952D51 /* CurrentArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89907B7626B45DA900952D51 /* CurrentArea.swift */; };
+		8992B89626B70C2C00B475D2 /* InformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8992B89526B70C2C00B475D2 /* InformationView.swift */; };
+		89F8D8D926B59DE800C1197C /* gwyneddWhole.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 89F8D8D826B59DE800C1197C /* gwyneddWhole.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,9 +31,10 @@
 		8923F932269B2F0C00360ED9 /* WorldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldView.swift; sourceTree = "<group>"; };
 		8923F940269B587300360ED9 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		89498D9B26B1D1D900CDE396 /* Area.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Area.swift; sourceTree = "<group>"; };
-		8974605F26B3108E003240B1 /* gwynedd.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = gwynedd.gpx; sourceTree = "<group>"; };
 		8974606126B31BF0003240B1 /* GPXManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPXManager.swift; sourceTree = "<group>"; };
 		89907B7626B45DA900952D51 /* CurrentArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentArea.swift; sourceTree = "<group>"; };
+		8992B89526B70C2C00B475D2 /* InformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationView.swift; sourceTree = "<group>"; };
+		89F8D8D826B59DE800C1197C /* gwyneddWhole.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = gwyneddWhole.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,8 +68,8 @@
 		8923F922269B2B6100360ED9 /* Path */ = {
 			isa = PBXGroup;
 			children = (
-				8974605F26B3108E003240B1 /* gwynedd.gpx */,
 				8923F923269B2B6100360ED9 /* PathApp.swift */,
+				89F8D8D826B59DE800C1197C /* gwyneddWhole.gpx */,
 				8923F925269B2B6100360ED9 /* ContentView.swift */,
 				8923F927269B2B6400360ED9 /* Assets.xcassets */,
 				8923F92C269B2B6400360ED9 /* Info.plist */,
@@ -77,6 +79,7 @@
 				89498D9B26B1D1D900CDE396 /* Area.swift */,
 				8974606126B31BF0003240B1 /* GPXManager.swift */,
 				89907B7626B45DA900952D51 /* CurrentArea.swift */,
+				8992B89526B70C2C00B475D2 /* InformationView.swift */,
 			);
 			path = Path;
 			sourceTree = "<group>";
@@ -154,7 +157,7 @@
 			files = (
 				8923F92B269B2B6400360ED9 /* Preview Assets.xcassets in Resources */,
 				8923F928269B2B6400360ED9 /* Assets.xcassets in Resources */,
-				8974606026B3108E003240B1 /* gwynedd.gpx in Resources */,
+				89F8D8D926B59DE800C1197C /* gwyneddWhole.gpx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8923F926269B2B6100360ED9 /* ContentView.swift in Sources */,
+				8992B89626B70C2C00B475D2 /* InformationView.swift in Sources */,
 				89498D9C26B1D1D900CDE396 /* Area.swift in Sources */,
 				89907B7726B45DA900952D51 /* CurrentArea.swift in Sources */,
 				8923F941269B587300360ED9 /* MapView.swift in Sources */,

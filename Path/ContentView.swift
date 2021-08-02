@@ -18,13 +18,22 @@ struct ContentView: View {
     
     var body: some View {
         ScrollView{
-            Text("Search: ")
-                .font(.title)
-                .padding(.all,12)
-            Text(currentArea.area.name)
-                .font(.headline)
-                .italic()
-                .padding(.all,12)
-        }.navigationTitle("Information")
+            if(currentArea.area.name != "")
+            {
+                InformationView(currentArea: currentArea)
+            }
+            else{
+                Text("Welcome!")
+                    .font(.title)
+                    .padding(.all, 12)
+                    .padding(.top, 50)
+            }
+        }.ignoresSafeArea()
     }
 }
+
+//extension String {
+//     func isEqualToString(find: String) -> Bool {
+//        return String(format: self) == find
+//    }
+//}

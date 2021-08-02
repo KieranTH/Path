@@ -96,7 +96,7 @@ struct MapView: UIViewRepresentable {
         
         func mapView(_ mapView: MKMapView, didSelect view: MKAnnotationView) {
             //print("test")
-            print (view.annotation?.coordinate)
+            //print (view.annotation?.coordinate)
         }
         
         //--- passing coordinates ---
